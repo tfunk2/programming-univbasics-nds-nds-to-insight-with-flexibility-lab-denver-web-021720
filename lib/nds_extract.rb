@@ -115,13 +115,6 @@ def movies_with_directors_set(source)
   source_name = source[director_index][:name]
   source_movies = source[director_index][:movies]
   empty_array << movies_with_director_key(source_name, source_movies)
-    movie_index = 0
-    # while movie_index < source_movies.length do
-      
-    #   a_of_h_with_names = movies_with_director_key(source_name, source_movies)
-    #   empty_array << a_of_h_with_names
-    #   movie_index += 1
-    # end
     director_index += 1
     end
     empty_array
